@@ -1,0 +1,411 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(3, 57, 73);
+  background: rgba(144, 255, 41, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(144, 255, 41, 1) 0%,
+    rgba(209, 255, 82, 0) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(144, 255, 41, 1)),
+    color-stop(100%, rgba(209, 255, 82, 0))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(144, 255, 41, 1) 0%,
+    rgba(209, 255, 82, 0) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(144, 255, 41, 1) 0%,
+    rgba(209, 255, 82, 0) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(144, 255, 41, 1) 0%,
+    rgba(209, 255, 82, 0) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(144, 255, 41, 1) 0%,
+    rgba(209, 255, 82, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#90ff29', endColorstr='#d1ff52', GradientType=0 );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  margin-top: 10px;
+  height: 245px;
+  display: block;
+  text-align: center;
+}
+
+header h2 {
+  display: inline-block;
+  height: 247px;
+  vertical-align: middle;
+}
+
+.currentlink {
+  background-color: rgb(23, 152, 190);
+}
+
+.logo img {
+  display: inline-block;
+  width: 230px;
+}
+
+.nav {
+  background-color: rgba(0, 172, 224, 0.699);
+  padding: 5px;
+  text-align: center;
+  border: solid rgb(0, 172, 224);
+  border-radius: 4px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px;
+  text-transform: uppercase;
+  border: solid;
+  border-radius: 4px;
+  color: rgb(0, 87, 114);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.nav a:hover {
+  box-shadow: 0 5px 10px 0 rgba(3, 57, 73, 0.666),
+    0 5px 10px 0 rgb(3, 57, 73, 0.666);
+  transition-duration: 0.2s;
+  background-color: rgba(0, 172, 224, 0.432);
+}
+
+.info {
+  vertical-align: top;
+  display: inline-block;
+  margin: 20px 0px 0px 100px;
+  padding: 5px;
+  border: solid rgb(0, 172, 224);
+  border-radius: 4px;
+  background-color: rgba(0, 172, 224, 0.699);
+  width: 40%;
+}
+
+.info p {
+  padding: 10px;
+}
+
+.image {
+  padding-top: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 45%;
+  margin-left: 60px;
+}
+
+.indeximage {
+  width: 100%;
+}
+
+header h2 {
+  display: inline-block;
+}
+
+.table {
+  border: solid;
+  border-color: rgb(0, 172, 224);
+  border-radius: 4px;
+  background-color: rgba(0, 172, 224, 0.699);
+  padding: 5px;
+  margin: auto;
+  width: 90%;
+}
+
+.tablehead {
+  font-weight: bold;
+}
+
+.rules {
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  padding: 5px;
+}
+
+.rulesintro {
+  text-align: center;
+  margin: 10px;
+}
+
+li ol {
+  padding: 5px;
+}
+
+footer {
+  margin: auto;
+  padding: 5%;
+}
+
+main {
+  margin: 25px;
+  margin: auto;
+  margin: top;
+}
+
+.content {
+  margin-top: auto;
+}
+
+.gameinfo {
+  vertical-align: top;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  border: solid rgb(0, 172, 224);
+  border-radius: 4px;
+  background-color: rgba(0, 172, 224, 0.699);
+  width: 40%;
+}
+
+.gamelocations {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  margin-top: inherit;
+}
+.map {
+  border: solid rgb(0, 172, 224);
+  border-radius: 4px;
+}
+
+.form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.positions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input {
+  border-radius: 4px;
+}
+
+/*-------------------------ALL REG FORM-------------------------*/
+
+form {
+  margin: auto;
+  width: 60%;
+}
+
+.allform {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+}
+
+form p {
+  font-weight: bold;
+}
+
+form label {
+  font-weight: bold;
+}
+form input {
+  font-weight: lighter;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+}
+
+.regrow {
+  margin-bottom: 20px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.regname {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.innername {
+  display: flex;
+  width: 50%;
+}
+
+.regstreetadress {
+  display: flex;
+}
+
+.regcity {
+  display: flex;
+  align-content: space-around;
+}
+
+.innercity {
+  display: flex;
+  width: 50%;
+  align-content: space-between;
+}
+
+.regbirthdate {
+  display: flex;
+  height: 25px;
+}
+
+.innerbirthdate {
+  display: flex;
+  width: 50%;
+  align-content: space-between;
+}
+.gender {
+  display: flex;
+}
+
+.regparent {
+  display: flex;
+}
+
+.innerparent {
+  display: flex;
+}
+
+.regcontact {
+  display: flex;
+}
+
+.innercontact {
+  display: flex;
+  width: 50%;
+}
+
+.inneremail {
+  display: flex;
+}
+
+.reggrade {
+  display: flex;
+}
+
+.regnearschools {
+  display: flex;
+  flex-direction: column;
+}
+
+.nearschools1-2 {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  width: 645px;
+  justify-content: space-between;
+}
+
+.innernearschools {
+  display: flex;
+  flex-direction: column;
+}
+
+.innernearschools > div {
+  display: flex;
+}
+
+.schoolscolumn {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.regpositions {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+}
+
+.regnormallyplay div {
+  display: flex;
+}
+
+.regwantplay div {
+  display: flex;
+}
+
+.reguniform {
+  display: flex;
+  flex-direction: column;
+}
+
+.regjerseysize {
+  display: flex;
+  width: auto;
+}
+
+.regshortssize {
+  display: flex;
+  width: auto;
+}
+
+.inneruniform {
+  display: flex;
+}
+
+.innersize {
+  display: flex;
+  flex-direction: column;
+}
+
+.regpermission {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerpermission {
+  display: flex;
+  align-content: space-between;
+}
+
+.submit {
+  font-size: 17px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 4px;
+}
+
+.submit:hover {
+  text-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.2s;
+  background-color: rgba(144, 255, 41, 0.336);
+}
+
+.feedbacktable {
+  display: flex;
+  margin: auto;
+  background-color: rgba(93, 172, 196, 0.425);
+  border-radius: 1%;
+}

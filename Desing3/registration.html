@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration From</title>
+    <link rel="stylesheet" href="../Desing3/style/style3.css" />
+    <link rel="shortcut icon" href="../Desing3/images/nysl_logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h2>NORTHSIDE YOUTH</h2>
+        <a class="logo" href="../Desing3/desing3index.html"
+          ><img src="./images/nysl_logo.png" alt="logo"
+        /></a>
+        <h2>SOCCER LEAGUE</h2>
+      </div>
+    </header>
+
+    <div>
+      <nav class="nav">
+        <a href="../Desing3/desing3index.html">Home</a>
+        <a href="../Desing3/desing3about.html">About US</a>
+        <a href="../Desing3/desing3contact.html">Contact</a>
+        <a href="../Desing3/desing3gameinfo.html">Game Information</a>
+        <a href="../Desing3/desing3rules.html">Rules of Play & Policies</a>
+        <a class="currentlink" href="../Desing3/registration.html"
+          >Registration Form</a
+        >
+      </nav>
+    </div>
+    <h1>Registration Form</h1>
+    <main>
+      <form action="./show_data.html" method="GET">
+        <div class="allform">
+          <div class="regname regrow">
+            <div class="innername">
+              <label for="firstname">Player's First Name:</label>
+              <input id="firstname" name="firstname" type="text" />
+            </div>
+            <div class="innername">
+              <label for="lastname">Last Name:</label>
+              <input id="lastname" name="lastname" type="text" />
+            </div>
+          </div>
+          <div class="regstreetadress regrow">
+            <label for="streetadress">Street Adress:</label>
+            <input id="streetadress" name="streetadress" type="text" />
+          </div>
+          <div class="regcity regrow">
+            <div class="innercity regrow">
+              <label for="city">City:</label>
+              <input id="city" name="city" type="text" />
+            </div>
+            <div class="innercity regrow">
+              <label for="zipcode">Zip Code:</label>
+              <input id="zipcode" name="zipcode" type="text" />
+            </div>
+          </div>
+          <div class="regbirthdate regrow">
+            <div class="innerbirthdate">
+              <label for="birthdate">Birth Date (dd/mm/yyyy):</label>
+              <input id="birthdate" name="birthdate" type="date" />
+            </div>
+            <div>
+              <div class="gender regrow">
+                <p>Gender:</p>
+
+                <label for="genderf"
+                  ><input
+                    id="genderf"
+                    name="genderf"
+                    type="radio"
+                    value="Female"
+                  />Female</label
+                >
+
+                <label for="genderm"
+                  ><input
+                    id="genderm"
+                    name="genderm"
+                    type="radio"
+                    value="Male"
+                  />Male</label
+                >
+              </div>
+            </div>
+          </div>
+          <div class="reggrade regrow">
+            <p>Grade:</p>
+            <div class="innergrade">
+              <input
+                id="gradeps"
+                name="gradeps"
+                type="radio"
+                value="preschool"
+              />
+              <label for="gradeps">Pre-School</label>
+              <input id="grade1" name="grade1" type="radio" value="1st" />
+              <label for="grade1">1st</label>
+              <input id="grade2" name="grade2" type="radio" value="2nd" />
+              <label for="grade2">2nd</label>
+              <input id="grade3" name="grade3" type="radio" value="3rd" />
+              <label for="grade3">3rd</label>
+              <input id="grade4" name="grade4" type="radio" value="4th" />
+              <label for="grade4">4th</label>
+              <input id="grade5" name="grade5" type="radio" value="5th" />
+              <label for="grade5">5th</label>
+            </div>
+          </div>
+          <div class="regparent regrow">
+            <div class="innerparent">
+              <label for="parent">Parent/Guardian:</label>
+              <input id="parent" name="parent" type="text" />
+            </div>
+          </div>
+          <div class="regcontact regrow">
+            <div class="innercontact regrow">
+              <label for="contactphone">Contact Phone:</label>
+              <input id="contactphone" name="contactphone" type="tel" />
+            </div>
+
+            <div class="inneremail regrow">
+              <label for="contactemail">Contact Email:</label>
+              <input id="contactemail" name="contactemail" type="email" />
+            </div>
+          </div>
+
+          <div class="regnearschools regrow">
+            <h3>Which elementary schools do you live near?</h3>
+            <div class="nearschools1-2">
+              <div class="innernearschools">
+                <p>First Closest School:</p>
+                <div>
+                  <div class="schoolscolumn">
+                    <label for="nearschool1a">
+                      <input
+                        id="nearschool1a"
+                        name="nearschool1"
+                        type="radio"
+                      />AJ Katzenmaier</label
+                    >
+
+                    <label for="nearschool1g"
+                      ><input
+                        id="nearschool1g"
+                        name="nearschool1"
+                        type="radio"
+                      />Greenbay</label
+                    >
+
+                    <label for="nearschool1y"
+                      ><input
+                        id="nearschool1y"
+                        name="nearschool1"
+                        type="radio"
+                      />Howard A Yeager</label
+                    >
+                  </div>
+
+                  <div class="schoolscolumn">
+                    <label for="nearschool1m"
+                      ><input
+                        id="nearschool1m"
+                        name="nearschool1"
+                        type="radio"
+                      />Marjorie P Hart</label
+                    >
+
+                    <label for="nearschool1n"
+                      ><input
+                        id="nearschool1n"
+                        name="nearschool1"
+                        type="radio"
+                      />North Elementary</label
+                    >
+
+                    <label for="nearschool1s"
+                      ><input
+                        id="nearschool1s"
+                        name="nearschool1"
+                        type="radio"
+                      />South Elementary</label
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="innernearschools">
+                <p>Second Closest School:</p>
+                <div>
+                  <div class="schoolscolumn">
+                    <label for="nearschool2a"
+                      ><input
+                        id="nearschool2a"
+                        name="nearschool2"
+                        type="radio"
+                      />AJ Katzenmaier</label
+                    >
+
+                    <label for="nearschool2g"
+                      ><input
+                        id="nearschool2g"
+                        name="nearschool2"
+                        type="radio"
+                      />Greenbay</label
+                    >
+
+                    <label for="nearschool2y"
+                      ><input
+                        id="nearschool2y"
+                        name="nearschool2"
+                        type="radio"
+                      />Howard A Yeager</label
+                    >
+                  </div>
+
+                  <div class="schoolscolumn">
+                    <label for="nearschool2m">
+                      <input
+                        id="nearschool2m"
+                        name="nearschool2"
+                        type="radio"
+                      />Marjorie P Hart</label
+                    >
+
+                    <label for="nearschool2n"
+                      ><input
+                        id="nearschool2n"
+                        name="nearschool2"
+                        type="radio"
+                      />North Elementary</label
+                    >
+
+                    <label for="nearschool2s"
+                      ><input
+                        id="nearschool2s"
+                        name="nearschool2"
+                        type="radio"
+                      />South Elementary</label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="regpositions regrow">
+            <div class="regnormallyplay">
+              <p>
+                What position(s) do you normally play? (Check all that apply)
+              </p>
+
+              <div class="innerpositions">
+                <label for="normallyplayf"
+                  ><input
+                    id="normallyplayf"
+                    name="normallyplayf"
+                    type="checkbox"
+                  />Forward</label
+                >
+
+                <label for="normallyplayd"
+                  ><input
+                    id="normallyplayd"
+                    name="normallyplayd"
+                    type="checkbox"
+                  />Defense</label
+                >
+              </div>
+
+              <div>
+                <label for="normallyplaym"
+                  ><input
+                    id="normallyplaym"
+                    name="normallyplaym"
+                    type="checkbox"
+                  />Midfield</label
+                >
+
+                <label for="normallyplayg"
+                  ><input
+                    id="normallyplayg"
+                    name="normallyplayg"
+                    type="checkbox"
+                  />Goalkeeper</label
+                >
+              </div>
+            </div>
+            <div class="regwantplay">
+              <p>
+                What position(s) do you want to play? (Check all that apply)
+              </p>
+              <div class="innerpositions">
+                <label for="wantplayf"
+                  ><input
+                    id="wantplayf"
+                    name="wantplayf"
+                    type="checkbox"
+                  />Forward</label
+                >
+
+                <label for="wantplayd"
+                  ><input
+                    id="wantplayd"
+                    name="wantplayd"
+                    type="checkbox"
+                  />Defense</label
+                >
+              </div>
+
+              <div>
+                <label for="wantplaym"
+                  ><input
+                    id="wantplaym"
+                    name="wantplaym"
+                    type="checkbox"
+                  />Midfield</label
+                >
+
+                <label for="wantplayg"
+                  ><input
+                    id="wantplayg"
+                    name="wantplayg"
+                    type="checkbox"
+                  />Goalkeeper</label
+                >
+              </div>
+            </div>
+          </div>
+          <div><input name="uniform" type="radio" />Already Have a Uniform</div>
+          <div class="reguniform regrow">
+            <div class="inneruniform">
+              <div class="jerseysize">
+                <p>Jersey Size:</p>
+                <div class="regjerseysize">
+                  <div class="innersize">
+                    <label for="jerseysize-ys"
+                      ><input
+                        id="jerseysize-ys"
+                        name="jerseysize"
+                        type="radio"
+                      />Youth Small</label
+                    >
+
+                    <label for="jerseysize-ym"
+                      ><input
+                        id="jerseysize-ym"
+                        name="jerseysize"
+                        type="radio"
+                      />Youth Medium</label
+                    >
+
+                    <label for="jerseysize-yl"
+                      ><input
+                        id="jerseysize-yl"
+                        name="jerseysize"
+                        type="radio"
+                      />Youth Large</label
+                    >
+
+                    <label for="jerseysize-s"
+                      ><input
+                        id="jerseysize-s"
+                        name="jerseysize"
+                        type="radio"
+                      />Small</label
+                    >
+                  </div>
+                  <div class="innersize">
+                    <label for="jerseysize-m"
+                      ><input
+                        id="jerseysize-m"
+                        name="jerseysize"
+                        type="radio"
+                      />Medium</label
+                    >
+
+                    <label for="jerseysize-l"
+                      ><input
+                        id="jerseysize-l"
+                        name="jerseysize"
+                        type="radio"
+                      />Large</label
+                    >
+
+                    <label for="jerseysize-xl"
+                      ><input
+                        id="jerseysize-xl"
+                        name="jerseysize-xl"
+                        type="radio"
+                      />Extra-Large</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="shortssize">
+                <p>Shorts Size:</p>
+                <div class="regshortssize">
+                  <div class="innersize">
+                    <label for="shortsize-ys"
+                      ><input
+                        id="shortsize-ys"
+                        name="shortsize"
+                        type="radio"
+                      />Youth Small</label
+                    >
+
+                    <label for="shortsize-ym"
+                      ><input
+                        id="shortsize-ym"
+                        name="shortsize"
+                        type="radio"
+                      />Youth Medium</label
+                    >
+
+                    <label for="shortsize-yl"
+                      ><input
+                        id="shortsize-yl"
+                        name="shortsize"
+                        type="radio"
+                      />Youth Large</label
+                    >
+
+                    <label for="shortsize-s"
+                      ><input
+                        id="shortsize-s"
+                        name="shortsize"
+                        type="radio"
+                      />Small</label
+                    >
+                  </div>
+
+                  <div class="innersize">
+                    <label for="shortsize-m"
+                      ><input
+                        id="shortsize-m"
+                        name="shortsize"
+                        type="radio"
+                      />Medium</label
+                    >
+
+                    <label for="shortsize-l"
+                      ><input
+                        id="shortsize-l"
+                        name="shortsize"
+                        type="radio"
+                      />Large</label
+                    >
+
+                    <label for="shortsize-xl"
+                      ><input
+                        id="shortsize-xl"
+                        name="shortsize-xl"
+                        type="radio"
+                      />Extra-Large</label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="regpermission regrow">
+            <p><ins> Permission to play:</ins></p>
+            <p>
+              I, the parent or guardian of the minor registrant, agree that the
+              registrant and I will abide by all the rules of the Northside
+              Youth Soccer League (NYSL). In recognizing the possibility of
+              physical injury associated with soccer and in consideration for
+              the “League” accepting the registrant for its soccer programs and
+              activities, I hereby release, discharge, and/or otherwise
+              indemnify NYSL, their employees and associated personnel and
+              volunteers, including the facilities used for practices and games,
+              against any claim by or on behalf of the registrant as a result of
+              the registrant’s participation in the program and/or being
+              transported to or from NYSL sponsored activities, which
+              transportation.
+            </p>
+            <p>
+              By signing below, I hereby agree and authorize the above. In
+              addition, by signing below, I also acknowledge that I have read
+              the cancellation policy and agree to its terms.
+            </p>
+            <div class="innerpermission regrow">
+              <div class="signature">
+                <label for="signature">Parent/Guardian Signature:</label>
+                <input id="signature" name="signature" type="text" />
+              </div>
+
+              <div class="date regrow">
+                <label for="date">Date</label>
+                <input id="date" name="date" type="date" />
+              </div>
+            </div>
+            <div class="submit regrow">
+              <input class="submit" type="submit" value=" SUBMIT " />
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
